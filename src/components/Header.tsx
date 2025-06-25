@@ -9,7 +9,7 @@ export default function Header() {
       {/* Logo và slogan */}
       <div className="flex items-center gap-3">
         <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center text-white font-bold text-xl">
-          F8
+          N
         </div>
         <span className="text-black font-semibold text-sm md:text-base">
           Học Lập Trình Để Đi Làm
@@ -37,7 +37,7 @@ export default function Header() {
           </span>
           <input
             type="text"
-            placeholder="Tìm kiếm khóa học, bài viết, video, ..."
+            placeholder="Tìm kiếm khóa học"
             className="w-full py-2 pl-10 pr-4 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
           />
         </div>
